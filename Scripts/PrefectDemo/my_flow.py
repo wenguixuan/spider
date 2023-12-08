@@ -34,6 +34,8 @@ def repo_info(repo_owner: str = "PrefectHQ", repo_name: str = "prefect"):
     print(f"Number of contributors 👷: {len(contributors)}")
 
 
+
+
 if __name__ == "__main__":
     # create your first deployment
     repo_info.serve(name="my-first-deployment")
